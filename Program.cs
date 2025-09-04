@@ -2,7 +2,101 @@
 using System.Globalization;
 using Newtonsoft.Json;
 
-DateTime dataAtual = DateTime.Now;
+
+int numero = 15;
+bool ehPar = false;
+
+//if ternario
+
+ehPar = numero.EhPar();
+
+Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "ímpar"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MeuArray<int> arrayInteiro = new MeuArray<int>();
+
+arrayInteiro.AdicionarElementoArray(30);
+
+Console.WriteLine(arrayInteiro[0]);
+
+MeuArray<string> arrayString = new MeuArray<string>();
+
+arrayString.AdicionarElementoArray("Testezada");
+
+Console.WriteLine(arrayString[0]); */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* var tipoAnonimo = new { Nome = "Vinicius", Sobrenome = "Lobo", Altura = 1.80, Idade = 19 }; //objeto anonimo
+
+Console.WriteLine("Nome: " + tipoAnonimo.Nome);
+Console.WriteLine("Sobrenome: " + tipoAnonimo.Sobrenome);
+Console.WriteLine("Altura: " + tipoAnonimo.Altura);
+Console.WriteLine("Idade: " + tipoAnonimo.Idade); */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bool? desejaReceberEmail = true;
+
+if (desejaReceberEmail.HasValue && desejaReceberEmail.Value)
+{
+    Console.WriteLine("O usuário optou por receber email");
+}
+else
+{
+    Console.WriteLine("O usuário não respondeu ou optou por não receber email");
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DateTime dataAtual = DateTime.Now;
 
 List<Venda> listaVendas = new List<Venda>();
 
@@ -16,32 +110,11 @@ string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indente
 
 File.WriteAllText("Arquivos/vendas.json", serializado);
 
-Console.WriteLine(serializado);
+Console.WriteLine(serializado); */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* int numero = 15;
-bool ehPar = false;
-
-//if ternario
-
-ehPar = numero % 2 == 0;
-
-Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "ímpar"));
- */
 
 
 
